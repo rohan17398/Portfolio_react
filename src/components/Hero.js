@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </h2>
         <p className="tracking-wide leading-relaxed">
-        Hey there, I'm Rohan, a Computer Science grad student at Santa Clara University. 
+        Hey there, I'm Rohan, a Computer Science grad student at Santa Clara University, California. 
         My journey spans full-stack engineering and cybersecurity contributions in agile settings. 
         I thrive on challenges, adapt fast, and I'm geared up to innovate and learn. Welcome to my portfolio.{" "}
         </p>

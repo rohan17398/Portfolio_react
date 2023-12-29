@@ -3,8 +3,8 @@ const experiences = [
     {
         title: "Application Engineering Intern",
         company: "Applied Systems Engineering Inc. (Grid Automation Lab supported by Intel)",
-        duration: "Jan 2020 - Dec 2021",
-        location: "Campbell, CA",
+        duration: "June 2023 - Present",
+        location: "Campbell, California",
         description:
           "At ASE, I'm the wizard behind seamless hardware setups, reducing system downtime and ensuring projects soar. I delve into virtualization, crafting stronger systems and turbocharging testing efficiency. At the forefront of system setup, I'm committed to pushing boundaries and making complex tech concepts a breeze for all stakeholders.",
         tools: ["React", "Node.js", "AWS"],
