@@ -11,8 +11,8 @@ const Hero = () => {
           <Typed
             strings={[
               "Full Stack Engineer",
-              "Software Engineer",
-              "Traveller",
+              "Product/Project manager",
+              "Resilient Problem Solver",
             ]}
             typeSpeed={80}
             backDelay={1100}

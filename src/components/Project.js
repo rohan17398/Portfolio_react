@@ -14,38 +14,12 @@ const Project = () => {
               className="flex flex-wrap md:justify-between md:items-center"
               key={index}
             >
-              {/* <picture
-                className={
-                  index % 2 === 0
-                    ? "w-full md:w-6/12 shadow-lg "
-                    : "w-full md:w-6/12 shadow-lg md:order-1"
-                }
-              >
-                <source
-                  srcSet={`${project.image} 1920w,
-                        ${project.image} 768w,
-                        ${project.image} 320w`}
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  type="image/webp"
-                />
-                <source
-                  srcSet={`${project.image} 768w,`}
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  type="image/jpg"
-                />
-
-                <img
-                  width="768px"
-                  height="575px"
-                  loading="lazy"
-                  alt={project.title}
-                  className="rounded-lg"
-                />
-              </picture> */}
-              <div className="flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 ">
+              <div className="flex flex-col space-y-3 my-3 mx-1 w-full md:w-5/12">
                 <h3 className="uppercase font-bold text-lg">{project.title}</h3>
+                <p className="text-gray-500">Description:</p>
                 <p>{project.description}</p>
-                <div className="flex overflow-auto space-x-3 pb-2">
+                <p className="text-gray-500">Tools:</p>
+                <div className="flex flex-wrap space-x-3 pb-2">
                   {project.tools.map((disc, index) => (
                     <span
                       className="border border-gray-500 px-2 py-1 rounded-lg text-sm"
