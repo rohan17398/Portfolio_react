@@ -156,6 +156,38 @@ const Skill = () => {
           className="flex flex-col items-center"
           tabIndex="0"
           role="img"
+          aria-label="SQL"
+        >
+          <img
+            src="./images/icons/sql.svg"
+            alt=""
+            loading="lazy"
+            className="w-16 mb-1"
+            width="64px"
+            height="64px"
+          />
+          SQL
+        </div>
+        <div
+          className="flex flex-col items-center"
+          tabIndex="0"
+          role="img"
+          aria-label="HTML 5"
+        >
+          <img
+            src="./images/icons/jira.svg"
+            alt=""
+            loading="lazy"
+            className="w-16 mb-1"
+            width="64px"
+            height="64px"
+          />
+          Jira
+        </div>
+        <div
+          className="flex flex-col items-center"
+          tabIndex="0"
+          role="img"
           aria-label="CSS 3"
         >
           <img
