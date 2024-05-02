@@ -1,7 +1,7 @@
 // experienceData.js
 const experiences = [
     {
-        title: "Application Engineering Intern",
+        title: "Systems/Infra Engineering Intern",
         company: "Applied Systems Engineering Inc. (Grid Automation Lab supported by Intel)",
         duration: "June 2023 - Present",
         location: "Campbell, California",
